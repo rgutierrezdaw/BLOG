@@ -1,0 +1,199 @@
+header{
+    width: 100%;
+    height: 4em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 5em;
+    background-image: url("/img/home-bg.jpg");
+    color: white;
+}
+html{
+    height: 100%; 
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color:  #eaecee ;
+}
+footer{
+    padding-top: 3% ;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #dee2e6;
+    color: #46494c;
+    width: 100%;
+    height: 100%;
+}
+section{
+    padding: 40px 40px 30px 30px;
+    font-weight: bolder;
+    color: black;
+}
+.register{
+    background-color: #dee2e6;
+}
+
+h1{
+    font-family: 'Comfortaa', sans-serif;
+}
+form h3{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bolder;
+}
+form label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+form textarea{
+    height: 20em;
+}
+form select{
+    width: 10em;
+    height: 2em;
+}
+form{
+    padding: 20px 20px 20px 20px;
+    border: 3px solid#46494c;
+    background-color: white;
+}
+.noform{
+    border: none;   
+}
+.noform input{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+nav{
+    background-color: transparent;
+    padding-left: 1%;
+    font-weight: bold;
+}
+nav a{
+    font-family:'Comfortaa', sans-serif;
+    color:black;
+    font-size: 0.2em;
+}
+nav p{
+    font-family:'Comfortaa', sans-serif;
+    color: whitesmoke;
+    font-size: 0.3em;
+}
+
+nav button{
+    border-style: none;
+    font-family:'Comfortaa', sans-serif;
+    color: black;
+}
+.user{
+    font-size: 1.2em;
+}
+.close{
+    font-size:1.3em;
+    border: none;
+}
+.hidden{
+    border: none;
+}
+.close input{
+    border: none;
+    outline: none;
+    color: #eacdc2;
+    background-color: transparent;
+}
+.index{
+    width: 100%;
+    height: 100%;
+}
+.welcome{
+    width: 100%;
+    height: 100%;
+}
+
+.action{
+    margin-bottom: 5px;
+}
+.resume{
+    padding: 2%;    
+    background-color: #edf2fb;
+}
+#add:hover{
+    cursor: pointer;
+}
+#add {
+    display: none;
+    color: #2a6f97;
+    font-size: x-large ;
+    font-weight: bold; 
+}
+#date{
+    font-size: small;
+    color: #3f37c9;
+}
+#tittlePost{
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Comfortaa', sans-serif;
+    color: #333533;
+}
+#addComent{
+    border: none;
+    background-color: #edf2fb;
+    padding: 15px 15px 15px 15px;
+}
+#addComent input[type=text]{
+    width: 80%;
+    height: 3em;
+}
+#addComent input[type=submit]{
+    width: 15%;
+    height: 3em;
+    color: mintcream;
+    background-color: #2a6f97;
+    border-radius: 20px;
+}
+.coments{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf2fb;
+    padding: 15px 15px 15px 15px;
+}
+.coment{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    background-color: #b6ccfe;
+    line-height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 4px;
+}
+.contentComent{
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edf2fb;  
+}
+.seePost{
+    border:none;
+    background-color: #edf2fb;
+    font-size: medium;
+    padding: 0%;
+}
+.seePost input[type=submit]{
+    border:none;
+    background-color: #edf2fb;
+    color: rgb(53, 49, 49);    
+}
+
+
+
+
+

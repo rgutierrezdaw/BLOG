@@ -1,0 +1,21 @@
+{
+    "conf_dev":{
+        "driver":"mysql",
+        "dbhost":"127.0.0.1",
+        "dbname":"blog",
+        "dbuser":"admin",
+        "dbpass":"linuxlinux",
+        "web":"http://localhost:8080/",
+        "root":"/"
+        
+    },
+    "conf_pro":{       
+        "driver":"mysql",
+        "dbhost":"gura.cesnuria.com",
+        "dbname":"GuRa_blog",
+        "dbuser":"GuRa_admin",
+        "dbpass":"linuxlinux",       
+        "web":"/m7/blog/",
+        "root":"/m7/blog/"
+    }
+}
